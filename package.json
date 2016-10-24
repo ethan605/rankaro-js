@@ -4,7 +4,7 @@
   "description": "RanKaro game written in ES6 using React, Webpack & Babel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack-dev-server --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
+    "babel-root-slash-import": "^1.1.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   }
