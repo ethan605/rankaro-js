@@ -4,11 +4,15 @@
  */
 
 import React from 'react';
-
-import TestComp from 'app/components/TestComp';
+import _ from 'lodash';
 
 export default class App extends React.Component {
   render() {
-    return <TestComp />;
+    return (
+      <div>
+        <h1>Hello World!</h1>
+        <span>{_.range(10).join(', ')}</span>
+      </div>
+    );
   }
 }
